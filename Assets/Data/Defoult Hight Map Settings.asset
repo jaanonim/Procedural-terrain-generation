@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b8a04cdc42cbec428c6e46c0e12f3dc, type: 3}
+  m_Name: Defoult Hight Map Settings
+  m_EditorClassIdentifier: 
+  AutoUpdate: 1
+  noiseSettings:
+    normalizeMode: 1
+    scale: 0.0125
+    octaves: 5
+    persistance: 0.12
+    lacunarity: 5
+    seed: 0
+    offset: {x: 0, y: 0}
+    normalizeValue: 1.25
+  erossionSettings:
+    erosionMode: 2
+    numberOfIterationsMode: 0
+    numberOfIterations: 0.6
+    numErosionIterations: 34273
+    erosionBrushRadius: 1
+    maxLifetime: 50
+    sedimentCapacityFactor: 0.87
+    minSedimentCapacity: 0.01
+    depositSpeed: 0.3
+    erodeSpeed: 0.3
+    evaporateSpeed: 0.01
+    gravity: 1
+    startSpeed: 1
+    startWater: 1
+    inertia: 0
+  useFalloff: 0
+  FalloffBlur: 0.82
+  FalloffSize: 1.1
+  heightMultiplayer: 75
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  erosionShader: {fileID: 7200000, guid: 3d22ccb65deb342569720aedadddf958, type: 3}
